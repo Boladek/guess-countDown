@@ -1,0 +1,122 @@
+*{
+        margin: 0;
+        padding: 0;
+    }
+#top-bar{
+    background-color: red;
+    height: 80px;
+    font-family: cursive;
+    text-align: center;
+    color: #ffffff;
+}
+#sub-top-bar{
+    height: 35px;
+    background-color: #990000;
+    text-align: center;
+
+}
+
+ul li{
+    display: block;
+    float: left;
+    margin-right: 15px;
+    font-family: cursive;
+    font-weight: bold;
+    font-size: 20px; 
+    text-transform: uppercase;
+    color: #ffffff;
+}
+
+ul li:first-child{
+    margin-left: 20px;
+}
+li:hover{
+    cursor: pointer;
+    background-color: #990000;
+    margin-right: 17px;
+    font-size: 22px;
+    color: black;
+}
+
+#bottom-bar{
+    height: 250px;
+    width: 500px;
+    margin: 10px auto;
+    background-color: #990000;
+    color: white;
+    text-align: center;
+    padding-top: 10px;
+    border: 3px solid #ff0000;
+}
+
+#timer{
+    height: 20px;
+    width: 200px;
+    border: 3px solid white;
+    margin: auto;
+}
+
+.input{
+    width: 120px;
+    height: 100px;
+    color: #ff0000;
+    margin: 15px 5px;
+    font-size: 70px;
+    padding-right: 5px;
+    font-family: cursive;
+    border: 3px solid #ff0000;
+}
+
+#submit{
+    height: 25px;
+    width: 60px;
+    text-align: center;
+    background-color: #990000;
+    border: none;
+    font-size: 20px;
+    font-family: cursive;
+    color: white;
+    text-transform: uppercase;
+    margin: 2px auto;
+}
+
+#submit:hover{
+    color: black;
+    background-color: #ffffff;
+    width: 100px;
+    height: 35px;
+    border: 3px solid #ff0000;
+
+}
+
+#results{
+    height: 150px;
+    width: 300px;
+    color: #ff0000;
+    font-family: cursive;
+    margin: auto;
+    margin-top: 20px;
+    font-size: 30px;
+}
+#check-results{
+    width: 150px;
+    height: 40px;
+    font-size: 16px;
+    font-family: arial;
+    background-color: #ff0000;
+    color: white;
+    border-color: lightgrey;
+    border: 3px groove #ff0000;
+    font-family: cursive;
+    margin-top: 30px;
+    padding: 2px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+#display-results{
+    color: red;
+    font-family: cursive;
+    font-size: 60px;
+
+}
+
